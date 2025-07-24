@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Youtube from './components/Youtube';
 import Posts from './components/Posts';
 import Support from './components/Support';
+import Blitzwing from './components/Blitzwing';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
        
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/blitzwing" element={<Blitzwing />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact  />} />
             <Route path="/illustration" element={<Illustrations  />} />

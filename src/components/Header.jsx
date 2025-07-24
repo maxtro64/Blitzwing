@@ -28,7 +28,8 @@ const Header = () => {
                 { path: '/youtube', name: 'Videos' },
                 { path: '/about', name: 'About' },
                 { path: '/contact', name: 'Contact' },
-                { path: '/support', name: 'Support' }
+                { path: '/support', name: 'Support' },
+                { path: '/blitzwing', name: 'Blitzwing' }
               ].map((item) => (
                 <li key={item.path}>
                   <Link 
@@ -65,10 +66,12 @@ const Header = () => {
                 { path: '/', name: 'Home' },
                 { path: '/illustration', name: 'Illustration' },
                 { path: '/post', name: 'Posts' },
+                { path: '/blitzwing', name: 'Blitzwing' },
                 { path: '/youtube', name: 'Videos' },
                 { path: '/about', name: 'About' },
                 { path: '/contact', name: 'Contact' },
-                { path: '/support', name: 'Support' }
+                { path: '/support', name: 'Support' },
+                { path: '/blitzwing', name: 'Blitzwing' }
               ].map((item) => (
                 <li key={item.path}>
                   <Link 

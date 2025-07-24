@@ -22,12 +22,12 @@ const Home = () => {
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-white max-w-2xl mx-auto mb-6 md:mb-10 px-2">
             Exploring the intersection of storytelling, art, and digital creation
           </p>
-          <Link to='/illustration' className="inline-block">
+          <Link to='/blitzwing' className="inline-block">
             <button 
               type="button" 
               className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm sm:text-base px-5 py-2.5 sm:px-6 sm:py-3 md:px-8 md:py-4 text-center transition-all duration-300 transform hover:scale-105"
             >
-              Explore My Work
+              Explore My BlitzWing AI Bot
             </button>
           </Link>
         </div>
